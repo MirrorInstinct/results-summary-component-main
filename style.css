@@ -1,0 +1,39 @@
+.container {
+    position: absolute; /* or fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    min-height: 300px;
+    box-shadow: 10px 10px 2cap #e2e5f3;
+}
+
+.result {
+    background: rgb(83,55,237);
+    background: radial-gradient(circle, rgba(83,55,237,1) 0%, rgba(96,80,245,1) 100%); 
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.result h3 {
+    color: #e2e5f3;
+    text-align: center;
+}
+
+.result-count {
+    background-color: #4126db; /*placeholder*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.result strong {
+    font-size: 50px;
+}
