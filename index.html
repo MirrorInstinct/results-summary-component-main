@@ -18,12 +18,13 @@
 
     <div class = "summary">
       <h3>Summary</h3>
-      <em>-/-JSON output goes here-/-</em>
-
-      <p id="reaction"></p>
-      <p id="memory"></p>
-      <p id="verbal"></p>
-      <p id="visual"></p>
+      <div class="summary-results">
+        <p id="reaction"></p>
+        <p id="memory"></p>
+        <p id="verbal"></p>
+        <p id="visual"></p>
+      </div>
+      
       <button type="submit">Continue</button>
     </div>
   </div>
@@ -54,10 +55,10 @@
     ]`
     let obj = JSON.parse(summary);
 
-    document.getElementById("reaction").innerHTML = obj[0]["category"] + " " + obj[0]["score"];
-    document.getElementById("memory").innerHTML = obj[1]["category"] + " " + obj[1]["score"];
-    document.getElementById("verbal").innerHTML = obj[2]["category"] + " " + obj[2]["score"];
-    document.getElementById("visual").innerHTML = obj[3]["category"] + " " + obj[3]["score"];
+    document.getElementById("reaction").innerHTML = obj[0]["category"] + " " + obj[0]["score"] + " / 100";
+    document.getElementById("memory").innerHTML = obj[1]["category"] + " " + obj[1]["score"] + " / 100";
+    document.getElementById("verbal").innerHTML = obj[2]["category"] + " " + obj[2]["score"] + " / 100";
+    document.getElementById("visual").innerHTML = obj[3]["category"] + " " + obj[3]["score"] + " / 100";
   </script>
 
 
