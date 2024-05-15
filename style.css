@@ -29,7 +29,7 @@
     border-radius: 20px;
     padding: 20px;
     width: 230px;
-    margin-right: 30px;
+    /*margin-right: 30px;*/
     text-align: center;
     padding: 30px;
 }
@@ -60,4 +60,52 @@
 
 .summary {
     width: 200px;
+    padding: 10px 30px;
+}
+
+.summary-results {
+    text-align: center;
+}
+
+#reaction {
+    background-color: #fff1ef;
+    border-radius: 7px;
+    padding: 13px;
+    text-align: center;
+    margin: 13px 0;
+}
+
+#memory {
+    background-color: #fbf5e9;
+    border-radius: 7px;
+    padding: 13px;
+    text-align: center;
+    margin: 13px 0;
+}
+
+#verbal {
+    background-color: #e6fdfb;
+    border-radius: 7px;
+    padding: 13px;
+    text-align: center;
+    margin: 13px 0;
+}
+
+#visual {
+    background-color: #ececff;
+    border-radius: 7px;
+    padding: 13px;
+    text-align: center;
+    margin: 13px 0;
+}
+
+.continue {
+    color: white;
+    font-weight: bold;
+    background-color: #303b59;
+    padding: 15px;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
 }
