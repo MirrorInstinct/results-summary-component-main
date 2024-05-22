@@ -9,7 +9,7 @@
 }
 
 .container {
-    position: absolute; /* or fixed */
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -29,7 +29,6 @@
     border-radius: 20px;
     padding: 20px;
     width: 230px;
-    /*margin-right: 30px;*/
     text-align: center;
     padding: 30px;
 }
@@ -166,35 +165,60 @@
     color: black;
 }
 
-/* #memory {
-    background-color: #fbf5e9;
-    border-radius: 7px;
-    padding: 13px;
-    text-align: center;
-    margin: 13px 0;
-    color: #dc9e00;
-    font-weight: 500;
-}
+@media only screen and (max-width: 600px) {
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border-radius: 10px;
+        max-width: 600px;
+        min-height: 300px;
+        box-shadow: 10px 10px 2cap #e2e5f3;
+        display: flex;
+        font-family: HankenGrotesk-VariableFont;
+        flex-direction: column;
+    }
 
-#verbal {
-    background-color: #e6fdfb;
-    border-radius: 7px;
-    padding: 13px;
-    text-align: center;
-    margin: 13px 0;
-    color: #00c990;
-    font-weight: 500;
-}
+    .result {
+        background: rgb(83,55,237);
+        background: radial-gradient(circle, rgba(83,55,237,1) 0%, rgba(96,80,245,1) 100%); 
+        color: white;
+        border-radius: 20px;
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+        padding: 30px;
+    }
 
-#visual {
-    background-color: #ececff;
-    border-radius: 7px;
-    padding: 13px;
-    text-align: center;
-    margin: 13px 0;
-    color: #0a15b8;
-    font-weight: 500;
-} */
+    .summary {
+        width: 300px;
+        padding: 10px 30px;
+    }
+
+    .reaction-count {
+        padding-left: 70px;
+    }
+
+    .memory-count {
+        padding-left: 72px;
+    }
+
+    .verbal-count {
+        padding-left: 85px;
+    }
+
+    .visual-count {
+        padding-left: 88px;
+    }
+    .attribution {
+        position: absolute;
+        top: 105%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
 
 .continue {
     color: white;
@@ -205,4 +229,12 @@
     width: 100%;
     margin-top: 20px;
     border: none;
+    cursor: pointer;
+}
+
+.attribution {
+    position: absolute;
+    left: 2%;
+    bottom: 0%;
+    transform: translate(0%, 1000%);
 }
