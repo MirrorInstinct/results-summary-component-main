@@ -59,7 +59,7 @@
 }
 
 .summary {
-    width: 200px;
+    width: 220px;
     padding: 10px 30px;
 }
 
@@ -70,17 +70,110 @@
 #reaction {
     background-color: #fff1ef;
     border-radius: 7px;
-    padding: 13px;
-    text-align: center;
+    color: #df4300;
+    font-weight: 500;
+    display: flex;
+    padding-left: 20px;
     margin: 13px 0;
+}
+
+#reaction img {
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.reaction-count {
+    padding-left: 10px;
+}
+.reaction-count strong {
+    padding-left: 30px;
+    font-weight: 600;
+    color: black;
 }
 
 #memory {
     background-color: #fbf5e9;
     border-radius: 7px;
+    color: #dc9e00;
+    font-weight: 500;
+    display: flex;
+    padding-left: 20px;
+    margin: 13px 0;
+}
+
+#memory img {
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.memory-count {
+    padding-left: 12px;
+}
+
+.memory-count strong {
+    padding-left: 30px;
+    font-weight: 600;
+    color: black;
+}
+
+#verbal {
+    background-color: #e6fdfb;
+    border-radius: 7px;
+    color: #00c990;
+    font-weight: 500;
+    display: flex;
+    padding-left: 20px;
+    margin: 13px 0;
+}
+
+#verbal img {
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.verbal-count {
+    padding-left: 25px;
+}
+
+.verbal-count strong {
+    padding-left: 30px;
+    font-weight: 600;
+    color: black;
+}
+
+#visual {
+    background-color: #ececff;
+    border-radius: 7px;
+    color: #0a15b8;
+    font-weight: 500;
+    display: flex;
+    padding-left: 20px;
+    margin: 13px 0;
+}
+
+#visual img {
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.visual-count {
+    padding-left: 28px;
+}
+
+.visual-count strong {
+    padding-left: 30px;
+    font-weight: 600;
+    color: black;
+}
+
+/* #memory {
+    background-color: #fbf5e9;
+    border-radius: 7px;
     padding: 13px;
     text-align: center;
     margin: 13px 0;
+    color: #dc9e00;
+    font-weight: 500;
 }
 
 #verbal {
@@ -89,6 +182,8 @@
     padding: 13px;
     text-align: center;
     margin: 13px 0;
+    color: #00c990;
+    font-weight: 500;
 }
 
 #visual {
@@ -97,7 +192,9 @@
     padding: 13px;
     text-align: center;
     margin: 13px 0;
-}
+    color: #0a15b8;
+    font-weight: 500;
+} */
 
 .continue {
     color: white;

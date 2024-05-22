@@ -19,54 +19,36 @@
     <div class = "summary">
       <h3>Summary</h3>
       <div class="summary-results">
-        <p id="reaction"></p>
-        <p id="memory"></p>
-        <p id="verbal"></p>
-        <p id="visual"></p>
-      </div>
+        <div id="reaction">
+          <img src="assets/images/icon-reaction.svg">
+          <p>Reaction</p>
+          <p class="reaction-count"><strong>80</strong>/100</p>
+        </div>
+        <div id="memory">
+          <img src="assets/images/icon-memory.svg">
+          <p>Memory</p>
+          <p class="memory-count"><strong>92</strong>/100</p>
+        </div>
+        <div id="verbal">
+          <img src="assets/images/icon-verbal.svg">
+          <p>Verbal</p>
+          <p class="verbal-count"><strong>61</strong>/100</p>
+        </div>
+        <div id="visual">
+          <img src="assets/images/icon-visual.svg">
+          <p>Visual</p>
+          <p class="visual-count"><strong>72</strong>/100</p>
+        </div>
+        <!-- <p id="memory"><img src="assets/images/icon-memory.svg"> Memory</p>
+        <p id="verbal"><img src="assets/images/icon-verbal.svg"> Verbal</p>
+        <p id="visual"><img src="assets/images/icon-visual.svg"> Visual</p>
+      </div> -->
       
       <button class="continue" type="submit">Continue</button>
     </div>
   </div>
-
-  <script>
-    let summary = 
-    `[
-      {
-        "category": "Reaction",
-        "score": 80,
-        "icon": "./assets/images/icon-reaction.svg"
-      },
-      {
-        "category": "Memory",
-        "score": 92,
-        "icon": "./assets/images/icon-memory.svg"
-      },
-      {
-        "category": "Verbal",
-        "score": 61,
-        "icon": "./assets/images/icon-verbal.svg"
-      },
-      {
-        "category": "Visual",
-        "score": 72,
-        "icon": "./assets/images/icon-visual.svg"
-      }
-    ]`
-    let obj = JSON.parse(summary);
-
-    // const image = new Image();
-    // image.src = "assets/images/icon-reaction.svg";
-    // document.getElementById("reaction").appendChild(image);
-
-    document.getElementById("reaction").innerHTML = obj[0]["category"] + " " + obj[0]["score"] + " / 100";
-    document.getElementById("memory").innerHTML = obj[1]["category"] + " " + obj[1]["score"] + " / 100";
-    document.getElementById("verbal").innerHTML = obj[2]["category"] + " " + obj[2]["score"] + " / 100";
-    document.getElementById("visual").innerHTML = obj[3]["category"] + " " + obj[3]["score"] + " / 100";
-  </script>
-
-
-   <!-- <div class="attribution">
+  
+<!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Jarol</a>
   </div> -->
