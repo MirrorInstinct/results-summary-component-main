@@ -49,8 +49,6 @@ In general, I was at least proud of the fact that my CSS and HTML skills are imp
 
 As mentioned before, I really need to work on my JS skills. I thought I had an understanding that could get me by but there's still a bit to work on.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 ## Author
 
 - Website - [Jarol](https://mirrorinstinct.github.io/results-summary-component-main/)
